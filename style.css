@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.author-text{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container {
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 90%;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(110, 87, 2, 0.3);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+
+.task{
+    margin-top: 3px;
+}
+hr{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
